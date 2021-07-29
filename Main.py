@@ -1,7 +1,7 @@
 # Função Novamente?
 def novamente():
     print("Deseja adicionar uma nova lista?")
-    resposta = input ("Digite S para SIM ou N para NÃO: ")
+    resposta = input ("Digite S para SIM ou N para NÃO: ".upper())
     if resposta == 'S':
         print()
         principal()
